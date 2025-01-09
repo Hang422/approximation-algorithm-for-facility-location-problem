@@ -4,7 +4,7 @@ This repository contains the implementation of approximation and heuristic algor
 
 ## Key Innovation
 
-The main innovation of this implementation lies in transforming the highly abstract dual-based approximation algorithm into executable code through physical model mapping. The algorithm is visualized as a water-filling system where:
+The main innovation of this implementation lies in transforming the highly abstract dual-based approximation algorithm into executable code through model mapping. The algorithm is visualized as a water-filling system where:
 
 - Dual Variables → Bucket (Storage Capacity & Water Level)
 - Linear Programming Constraints → Line (Connection & Flow) 
@@ -16,7 +16,7 @@ This mapping makes the abstract algorithm more intuitive and implementable. The 
 
 The PFLPO is a generalization of both the Facility Location Problem with Outliers (FLPO) and Priority Facility Location Problem (PFLP). The project provides:
 
-- A 3-approximation algorithm using primal-dual technique
+- A 3-approximation algorithm using primal-dual technique (actually, could combine 3-approx algorithm and greedy-based to get a 2-approx algorithm, but time complexity is too high to run)
 - A greedy-based heuristic algorithm  
 - A local search algorithm
 - Experimental comparisons between these approaches
