@@ -42,12 +42,12 @@ In PFLPO, we have:
 - Explores neighborhood of current solution
 - Makes local improvements until local optimum reached
 
-### 4. Genetic Algorithm
+### 4. Genetic Algorithm (not in paper)
 - Population-based evolutionary approach
 - Uses mutation and selection operations
 - Adapts probability parameters based on solution quality
 
-### 5. Simulated Annealing Algorithm
+### 5. Simulated Annealing Algorithm (not in paper)
 - Probabilistic technique for approximating global optimum
 - Gradually decreases temperature parameter
 - Allows escaping local optima through probabilistic acceptance
