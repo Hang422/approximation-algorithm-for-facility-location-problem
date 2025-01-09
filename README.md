@@ -1,6 +1,8 @@
 # Priority Facility Location Problem with Outliers (PFLPO)
 
-This repository contains the implementation of approximation and heuristic algorithms for solving the Priority Facility Location Problem with Outliers (PFLPO), as presented in our paper published in Tsinghua Science and Technology.
+**Note**: This is the code implementation from a research paper two years ago. While the code structure might be relatively basic, its main innovation lies in successfully implementing a highly abstract approximation algorithm into executable code.
+
+The core contribution is the transformation of a theoretical dual-based approximation algorithm into a practical implementation through physical model mapping. You'll notice some seemingly unusual classes in the code (like Bucket, Line, etc.) - these actually represent components of a water-filling system that helps realize the abstract algorithm in a more tangible way:
 
 ## Key Innovation
 
@@ -11,15 +13,6 @@ The main innovation of this implementation lies in transforming the highly abstr
 - Dual Ascent Process → Level (Dual Variable Value)
 
 This mapping makes the abstract algorithm more intuitive and implementable. The seemingly unusual classes in the code (like Bucket, Line etc.) are actually representing components of this physical model to realize the approximation algorithm.
-
-## Overview
-
-The PFLPO is a generalization of both the Facility Location Problem with Outliers (FLPO) and Priority Facility Location Problem (PFLP). The project provides:
-
-- A 3-approximation algorithm using primal-dual technique (actually, could combine 3-approx algorithm and greedy-based to get a 2-approx algorithm, but time complexity is too high to run)
-- A greedy-based heuristic algorithm  
-- A local search algorithm
-- Experimental comparisons between these approaches
 
 ## Problem Description
 
